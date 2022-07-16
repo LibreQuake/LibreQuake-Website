@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "sourceMap": true,
+        "target": "es2015",
+        "jsx": "react",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true
+    }
+}
