@@ -3,4 +3,4 @@
 cd server
 cargo build
 cd ..
-npm run-script build-development
+npm run-script build-dev
