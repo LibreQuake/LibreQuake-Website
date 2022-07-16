@@ -105,3 +105,6 @@ dist
 
 #server rust project
 server/target/
+
+#serverside start script
+start.sh
