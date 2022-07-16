@@ -1,0 +1,22 @@
+{
+  "name": "librequake-web",
+  "version": "1.0.0",
+  "description": "Website For LibreQuake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissLav/LibreQuake-Web.git"
+  },
+  "keywords": [
+    "LibreQuake"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/MissLav/LibreQuake-Web/issues"
+  },
+  "homepage": "https://github.com/MissLav/LibreQuake-Web#readme"
+}
