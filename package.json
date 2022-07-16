@@ -1,8 +1,5 @@
 {
-  "name": "librequake-web",
-  "version": "1.0.0",
-  "description": "Website For LibreQuake",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build" : "webpack --config webpack.config.js && webpack --mode=production",
@@ -12,9 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/MissLav/LibreQuake-Web.git"
   },
-  "keywords": [
-    "LibreQuake"
-  ],
   "author": "",
   "license": "BSD-3-Clause",
   "bugs": {
