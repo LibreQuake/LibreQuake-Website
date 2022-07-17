@@ -1,11 +1,14 @@
+/* eslint-disable indent */
+/* eslint-disable semi */
 /* eslint-disable @typescript-eslint/no-var-requires */
+
 const path = require('path')
 
 module.exports = [
     {
-        name: "client",
+        name: 'client',
         entry: './client/src/main.tsx',
-        mode: "development",
+        mode: 'development',
         module: {
             rules: [
                 {

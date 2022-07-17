@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 export default function App() {
-    return(
-        <div>
+  return (
+    <div>
 
-        </div>
-    );
+    </div>
+  );
 }

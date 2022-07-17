@@ -47,6 +47,7 @@
                 "asyncArrow": "always",
                 "named": "never"
             }
-        ]
+        ],
+        "indent": ["error", 2]
     }
 }
