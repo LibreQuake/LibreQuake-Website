@@ -16,6 +16,10 @@ module.exports = [
                     use: 'ts-loader',
                     exclude: /node_modules/,
                 },
+                {
+                    test: /\.(png|gif)(\?[\s\S]+)?$/,
+                    use: 'file-loader'
+                }
             ],
         },
         resolve: {
