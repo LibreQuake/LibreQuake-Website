@@ -1,48 +1,21 @@
 /* Such a big THANK YOU to devils of yourdevilfriends.art for showing me how this should be done! */
 
-/* LIGHT MODE */
-:root {
-    --color: #0f0f0f;
-    --link-color: #3b0000;
-    --bg-image: url(media/conback.scans.png);
-    --bg-color: hsl(204, 44%, 65%);
-}
-/* unvisited link */
-a:link {
-    color: #975777;
-}
-
-/* visited link */
-a:visited {
-    color: #13131f;
-}
-
-/* mouse over link */
-a:hover {
-    color: #1313df;
-}
-
-/* selected link */
-a:active {
-    color: #37374b;
-}
-
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
     :root {
-        --color: #a1a1d4;
-        --link-color: #fc9fd8;
+        --color: #ffffff;
+        --link-color: #20bdec;
         --bg-image: url(media/ammo_fl2.png);
         --bg-color: hsl(30, 36%, 4%);
     }
 /* unvisited link */
 a:link {
-	color: #fc9fd8;
+	color: #ffa8de;
 }
 
 /* visited link */
 a:visited {
-	color: #cf632b;
+	color: #ffa77b;
 }
 
 /* mouse over link */
@@ -52,7 +25,7 @@ a:hover {
 
 /* selected link */
 a:active {
-	color: #bd8ca7;
+	color: #ffffff;
 }
 }
 
