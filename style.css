@@ -1,11 +1,38 @@
 /* Such a big THANK YOU to devils of yourdevilfriends.art for showing me how this should be done! */
 
+/* LIGHT MODE */
+:root {
+    --color: #0f0f0f;
+    --link-color: #3b0000;
+    --bg-image: url(media/conback.scans.png);
+    --bg-color: hsl(204, 44%, 65%);
+}
+/* unvisited link */
+a:link {
+    color: #975777;
+}
+
+/* visited link */
+a:visited {
+    color: #13131f;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1313df;
+}
+
+/* selected link */
+a:active {
+    color: #37374b;
+}
+
 /* DARK MODE */
-@media {
+@media (prefers-color-scheme: dark) {
     :root {
         --color: #ffffff;
         --link-color: #20bdec;
-        --bg-image: url(media/xmas_stars.png);
+        --bg-image: url(media/ammo_fl2.png);
         --bg-color: hsl(30, 36%, 4%);
     }
 /* unvisited link */
@@ -53,4 +80,13 @@ uppercase,yell {
   top: 0;
   right: 0;
   border: 0;
+}
+
+/* What font to use */
+h1, h2, h3, a, li, th, br, p {
+	font-family: Geist, "Liberation Sans", Helvetica, Arial, sans-serif;
+}
+
+pre, tt, xmp {
+font-family: "Geist Mono", monospace, Courier;
 }

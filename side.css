@@ -81,3 +81,12 @@ uppercase,yell {
   right: 0;
   border: 0;
 }
+
+/* What font to use */
+h1, h2, h3, a, li, th, br, p {
+	font-family: Geist, Helvetica, Arial, sans-serif;
+}
+
+pre, tt, xmp {
+font-family: "Geist Mono", monospace, Courier;
+}
