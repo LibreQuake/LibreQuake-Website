@@ -1,4 +1,4 @@
-/* Such a big THANK YOU to devils of yourdevilfriends.art for showing me how this should be done! */
+/* Such a big THANK YOU to devils of devils.gay for showing me how this should be done! */
 
 /* LIGHT MODE */
 :root {
@@ -69,7 +69,7 @@ a:link {
     color: var(--link-color);
 }
 
-/* The following was written by yourdevilfriends.art - thank you */
+/* The following was written by devils.gay - thank you */
 uppercase,yell {
 	text-transform: uppercase;
 }
@@ -80,4 +80,13 @@ uppercase,yell {
   top: 0;
   right: 0;
   border: 0;
+}
+
+/* What font to use */
+h1, h2, h3, a, li, th, br, p {
+	font-family: Geist, "Liberation Sans", Helvetica, Arial, sans-serif;
+}
+
+pre, tt, xmp {
+font-family: "Geist Mono", monospace, Courier;
 }
