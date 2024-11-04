@@ -1,0 +1,4 @@
+bluesky.svg: https://commons.wikimedia.org/wiki/File:Bluesky_Logo.svg
+discord.svg: https://discord.com/branding
+github.svg: https://commons.wikimedia.org/wiki/File:GitHub_Invertocat_Logo.svg
+mail.png: https://commons.wikimedia.org/wiki/File:You%27ve_got_mail.png
