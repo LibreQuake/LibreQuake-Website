@@ -320,7 +320,7 @@ Disallow: /
 
 # Don't allow any bots
 # If you don't want *any* good bots browsing your website, then unmark
-# this. Please note that there are some bots still that don't obay
+# this. Please note that there are some bots that still don't obay
 # robots.txt at all, like ia_archiver.
 # User-agent: *
 # Disallow: /
