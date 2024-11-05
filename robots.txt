@@ -298,8 +298,8 @@ Disallow: /
 # Other Google bots
 # Don't like Google? Unmark these.
 # https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
-# User-agent: AdsBot-Google
-# User-agent: AdsBot-Google-Mobile
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
 # User-agent: APIs-Google
 # User-agent: FeedFetcher-Google
 # User-agent: Google-Extended
@@ -314,7 +314,7 @@ Disallow: /
 # User-agent: GoogleOther-Video
 # User-agent: GoogleProducer
 # User-agent: GoogleProducer; (+http://goo.gl/7y4SX)
-# User-agent: Mediapartners-Google
+User-agent: Mediapartners-Google
 # User-agent: Storebot-Google
 # Disallow: /
 
