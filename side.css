@@ -30,11 +30,17 @@ a:active {
 }
 
 body {
+    padding-top: 2em;
+    text-align: center;
     max-width: 800px ;
     margin: auto ;
     color: var(--color);
     background-image: var(--bg-image);
     background-color: var(--bg-color);
+}
+
+.star {
+    color: black;
 }
 
 /* unvisited link */

@@ -1,0 +1,22 @@
+name: reviewdog
+on:
+  pull_request:
+
+jobs:
+  stylelint:
+    name: CSS lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Install stylelint
+        run: npm install stylelint stylelint-config-recommended -D
+      - name: Lint CSS
+        uses: reviewdog/action-stylelint@dd2b435cc6a7c82705307a9dee740c9bbaa10411 # v1.30.2
+        with:
+          reporter: github-pr-review # Change reporter.
+          stylelint_input: '**/*.css'
+      - name: Lint HTML
+        uses: EPMatt/reviewdog-action-prettier@ea9650ff37c6cbb85d3d101ecd1c5215e7ba1b95 # latest main
+        with:
+          reporter: github-pr-review

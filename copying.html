@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<html>
-<title>LibreQuake</title>
-	<meta charset="utf-8">
-	<meta content="LibreQuake" property="og:title" />
-	<meta content="Free and open-source Quake" property="og:description" />
+	<head>
+		<title>.:| Copyright on LibreQuake |:.</title>
+		<meta charset="utf-8">
 		<meta property="og:image" content="https://librequake.queer.sh/media/embed.png">
-	<meta content="#43B581" data-react-helmet="true" name="theme-color" />
-    <meta name="keywords" content="LibreQuake, quake, fps, open-source, open source, free, vanilla, 1990s, 90s, 1996">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<frameset cols="10%, 70%">
-<frame src="side.html" />
-<frame src="copying2.html" />
-</frameset>
+		<meta property="og:title" content="LibreQuake">
+		<meta property="og:description" content="Free and open-source Quake">
+		<meta name="theme-color" content="#43B581" data-react-helmet="true">
+		<meta name="keywords" content="LibreQuake, quake, fps, open-source, open source, free, vanilla, 1990s, 90s, 1996">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="initPage()">
+		<div id="header"><a href="https://github.com/lavenderdotpet/LibreQuake" target="_parent"><img id="forkme" src="/media/forkme.png"
+			alt="Banner that says 'Fork me on GitHub'." title="Banner that says 'Fork me on GitHub'."></a></div>
+		<p class="centered"><img src="/media/logo.png" alt="The banner for the website that says &#x22;LibreQuake&#x22; on behind a metal background."
+			title="The banner for the website that says &#x22;LibreQuake&#x22; on behind a metal background."></p>
+		<hr>
+
+		<p>The LibreQuake project is very much open-source (same for <a href="https://github.com/LibreQuake/LibreQuake-Website"
+			target="_parent">this website</a>). We believe that copying is an act of love and are 100% fine with you copying our game,
+			sharing it around, editing it, whatever. Go crazy.</p>
+		<p>To be fully clear, here is the license that we use:</p>
+
+		<p class="license">Copyright &copy; 2019-<span class="currentYear"></span>
+			Contributors to the LibreQuake project.  All rights reserved.</p>
+
+		<p class="license">Redistribution and use in source and binary forms, with or without
+		modification, are permitted provided that the following conditions are
+		met:</p>
+
+		<ul>
+			<li class="license">Redistributions of source code must retain the above copyright
+				notice, this list of conditions and the following disclaimer.</li>
+			<li class="license">Redistributions in binary form must reproduce the above copyright
+				notice, this list of conditions and the following disclaimer in the
+				documentation and/or other materials provided with the distribution.</li>
+			<li class="license">Neither the name of the LibreQuake project nor the names of its
+				contributors may be used to endorse or promote products derived from
+				this software without specific prior written permission.</li>
+		</ul>
+
+		<p class="license emphasis">This software is provided by the copyright holders and
+			contributors “as is” and any express or implied warranties, including, but not
+			limited to, the implied warranties of merchantability and fitness for a particular
+			purpose are disclaimed. In no event shall the copyright owner or contributors be
+			liable for any direct, indirect, incidental, special, exemplary, or consequential
+			damages (including, but not limited to, procurement of substitute goods or services;
+			loss of use, data, or profits; or business interruption) however caused and on
+			any theory of liability, whether in contract, strict liability, or tort (including
+			negligence or otherwise) arising in any way out of the use of this software, even if
+			advised of the possibility of such damage.</p>
+
+		<p class="license">For a list of contributors to the LibreQuake project,
+			<a href="credits.html" target="content">see the <span class="monospace"><b>credits</b></span></a>.</p>
+
+		<p class="license">For a list of resources used in the LibreQuake project,
+		<a href="https://github.com/lavenderdotpet/LibreQuake/tree/main/docs"
+			target="_parent">see the directory <span class="monospace"><b>docs</b></span></a>.</p>
+
+		<hr>
+
+		<p>LibreQuake is copyrighted 2019 - <span class="currentYear"></span>, licensed under <a href="copying.html" target="content">an open license</a> - but you already knew that.</p>
+		<p class="centered"><img src="media/turtle.png" alt="A tiny little turtle!" title="A tiny little turtle!"
+			onclick="playAudio('media/squeak.mp3')"> <audio src="media/squeak.mp3" id="audioElement"></audio></p>
+    </body>
 </html>

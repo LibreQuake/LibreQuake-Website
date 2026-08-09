@@ -6,6 +6,7 @@
     --link-color: #3b0000;
     --bg-image: url(media/conback.scans.png);
     --bg-color: hsl(204, 44%, 65%);
+    --selection-bg-color: hsl(128, 75%, 50%);
 }
 /* unvisited link */
 a:link {
@@ -88,5 +89,31 @@ h1, h2, h3, a, li, th, br, p {
 }
 
 pre, tt, xmp {
-font-family: "Geist Mono", monospace, Courier;
+    font-family: "Geist Mono", monospace, Courier;
+}
+
+.license {
+    font-family: "Geist Mono", monospace, Courier;
+    margin-left: 2em;
+    text-align: justify;
+}
+
+.monospace {
+    font-family: "Geist Mono", monospace, Courier;
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    margin: 1em;
+}
+
+::selection {
+    background-color: var(--selection-bg-color) !important;
+    color:black;
+    text-shadow: rgba(0,0,0,.1) 1px 2px 2px;
 }
