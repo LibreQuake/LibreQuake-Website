@@ -1,0 +1,83 @@
+/*// BASE STYLES //*/
+
+html, body{
+  height:100%;
+  width:100%;
+  image-rendering: pixelated;
+  margin: 0;
+}
+
+/*// ELEMENTS TO ANIMATE //*/
+
+.bg{
+ 
+  background:url(assets/sky-bg.png);
+  background-size: 512px 512px;
+  height: 100%;
+  animation-name: back;
+  animation-duration: 1000s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+.fg{
+  background:url(assets/sky-fg.png);
+  background-size: 512px 512px;
+  height: 100%;
+  animation-name: front;
+  animation-duration: 1280s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+/*// KEYFRAMES //*/
+
+@keyframes back{
+  from {background-position: 0% 0%;}
+    to {background-position: -25600px -25600px;}
+  }
+
+@keyframes front{
+  from {background-position: 0% 0%;}
+    to {background-position: -51200px -51200px;}
+  }
+
+
+
+
+
+/*  
+made by lavender.pet 
+
+sorry if its not well made im new to html and css
+feel free to use for whatever 
+
+-stuff i used for refrence-
+
+https://www.youtube.com/watch?v=PjR97QzOrJM
+
+https://github.com/iamshaunjp/css-animations-playlist
+
+https://www.w3schools.com/css/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+the background on this page i found on neocities
+is where i found where i could start figuring out how to do this
+https://dannarchy.com/about
+
+also why does making a 2 layer background so much more complicated 
+then a single layer 
+  */
+
+
+
+
+
+
+
+
